@@ -11,7 +11,6 @@ module.exports = app => {
     const bodyParser = require('body-parser');
     var jsonParser = bodyParser.json();
     var urlencodedParser = bodyParser.urlencoded({ extended: false });
-
     //Login
     router.get("/Login/:username/:password", Login.Login);
     router.get("/GetAllAccount", Login.GetUser);
