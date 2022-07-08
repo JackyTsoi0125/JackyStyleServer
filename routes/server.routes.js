@@ -6,7 +6,7 @@ module.exports = app => {
     const Email = require("../controllers/sendEmail.controller.js");
     const File = require("../controllers/File.controller.js");
     const FavList = require("../controllers/favlist.controller.js");
-    var router = require("express").Router();
+    var router = require("express").Router(); 
 
     const bodyParser = require('body-parser');
     var jsonParser = bodyParser.json();
